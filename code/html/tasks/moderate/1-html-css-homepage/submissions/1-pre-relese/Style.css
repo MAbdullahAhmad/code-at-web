@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navbar {
+  background-color: #e9a825;
+   color: white;
+   height: 50px;
+   width: 1343px;
+}
+#facebook {
+margin-top: 15px;
+margin-left: 100px;
+}
+#twitter {
+  margin-left: 20px;
+}
+#instagram {
+  margin-left: 20px;
+}
+#pinterest {
+  margin-left: 20px;
+}
+#linkedin {
+  margin-left: 20px;
+}
+#call {
+  position: absolute;
+  right: 60px;
+  top: 15px;
+  font-size: 15px;
+}
+.pro {
+  width: 500px;
+}
+.divone {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+#home {
+  margin-left: 100px;
+}
+#div1 {
+  height: 50px;
+  width: 1343px;
+}
+#home {
+  margin-left: 200px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+#products {
+  margin-left: 150px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+#solutions {
+  margin-left: 150px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+#blog {
+  margin-left: 150px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+#contact {
+    text-decoration: none;
+    margin-left: 150px;
+    color: black;
+    font-size: 15px;
+}
+#search {
+  position: relative;
+  left: 40px;
+}
+
+#logodiv {
+  width: 1343px;
+}
+#imgeone {
+  margin-left: 200px;
+}
+#center {
+  text-align: center;
+}
+#footer {
+  position: absolute;
+  right: 1px;
+  color: white;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
