@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Caped Layout</title>
+  </head>
+
+  <style>
+    body{
+      margin: 0;
+    }
+    .contact{
+
+      background-color: green;
+    }
+    .master-nav{
+      min-height: 80px;;
+      background-color: orange;
+    }
+
+    .welcome{
+      min-height: 100vh;
+      background-image: url('https://media.istockphoto.com/id/1251629816/photo/the-perfect-setting-to-complete-work.webp?b=1&s=170667a&w=0&k=20&c=e8mSv3z6PhT18EUmzgtdMCbQecYzhHoqu_ts8tFdN6c=');
+      background-size: cover;
+      background-position: center;
+    }
+    .left-side{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      width: 50%;
+      height: 100vh;
+    }
+
+    h1{
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .row{
+      display: flex;
+    }
+    .col{
+      min-height: 200px;
+    }
+  </style>
+
+  <body>
+    <div class="contact">
+      Contact
+    </div>
+    <nav class="master-nav">
+      Nav
+    </nav>
+
+    <div class="welcome">
+      <div class="left-side">
+        <div class="information">
+          <h1>Show Your <br/>Personal Style</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rows -->
+    <div class="row">
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
+
+    <footer class="footer">
+      
+    </footer>
+  </body>
+
+</html>
+
+<!-- 1. CSS -> Grid System -->
+<!-- 1. CSS -> Flexbox -->
+<!-- grow, shirnk, basis -->
