@@ -1,0 +1,107 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+/* Form Wrap */
+.contact-form {
+    background-color: #574444;
+    min-height: 87vh;
+    /* margin: 70px 400px 60px; */
+    color: white;
+    max-width: auto;
+}
+
+/* Heading */
+
+#contact-us-heading{
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+    font-size: 3rem;
+
+    border-bottom: 2px solid #fff;
+    transition: color 0.5s ease-out;
+}
+
+#contact-us-heading:hover {
+    color: rgb(149, 150, 147);
+}
+
+
+
+
+/* Desc */
+.form-discription {
+    margin-left: 98px;
+    bottom: 25px;
+    color: mediumaquamarine;
+    font-size: large;
+}
+
+
+/* Name */
+#full-name {
+    margin: 20px 100px;
+    transition: color 0.5s ease-out;
+}
+#full-name:hover {
+    color: rgb(149, 150, 147);
+}
+.text-1 {
+    margin-left: 100px;
+    min-height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+.text-2 {
+     margin-left: 10px;
+     min-height: 30px;
+     border-radius: 5px 5px 5px 5px;
+}
+
+/* Email */
+#email {
+    margin: 20px 100px;
+    transition: color 0.5s ease-out;
+}
+#email:hover {
+    color: rgb(149, 150, 147);
+}
+.email-text {
+    margin-left: 100px;
+    min-height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: scale(1.3); */
+    min-width: 400px;
+}
+
+/* Message */
+#message-form {
+    margin: 20px 100px
+    
+}
+.messege-input {
+    margin-left: 100px;
+    min-height: 100px;
+    border-radius: 5px 5px 5px 5px;
+    min-width: 400px;
+}
+
+/* Submit */
+.submit {
+    margin-left: 100px;
+    min-height: 50px;
+    min-width: 100px;
+    border-radius: 5px 5px 5px 5px;
+    transition: color 0.5s ease-out;
+}
+.submit:hover {
+    background-color: rgb(31, 41, 11);
+    color: white;
+}

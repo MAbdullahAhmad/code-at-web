@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0%;
+}
+
+.contact-form {
+    background-color: #574444;
+    height: 87vh;
+    /* margin: 70px 400px 60px; */
+    color: white;
+    max-width: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    display: inline-block;
+    padding: 45px 100px;
+    transition: color 0.5s ease-out;
+}
+h1:hover {
+    color: rgb(149, 150, 147);
+}
+
+.form-discription {
+    margin-left: 98px;
+   position: relative;
+   bottom: 25px;
+   color: mediumaquamarine;
+   font-size: large;
+}
+
+/* Form styling */
+
+#full-name {
+    margin: 20px 100px;
+    transition: color 0.5 ease-out;
+}
+#full-name:hover {
+    color: rgb(149, 150, 147);
+}
+
+.text-1 {
+    margin-left: 100px;
+    min-height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.text-2 {
+     margin-left: 10px;
+     min-height: 30px;
+     border-radius: 5px 5px 5px 5px;
+}
+
+#email {
+    margin: 20px 100px;
+    transition: color 0.5 ease-out;
+}
+#email:hover {
+    color: rgb(149, 150, 147);
+}
+
+.email-text {
+    margin-left: 100px;
+    min-height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    /* transform: scale(1.3); */
+    min-width: 400px;
+}
+
+#message-form {
+    margin: 20px 100px
+    
+}
+#message-form:hover {
+    color: rgb(149, 150, 147);
+}
+
+
+.messege-input {
+    margin-left: 100px;
+    min-height: 100px;
+    border-radius: 5px 5px 5px 5px;
+    min-width: 400px;
+}
+
+.submit {
+    margin-left: 100px;
+    min-height: 50px;
+    min-width: 100px;
+    border-radius: 5px 5px 5px 5px;
+    transition: backgroundcolor 0.5 ease-out;
+}
+.submit:hover {
+    background-color: rgb(31, 41, 11);
+    color: white;
+}
+
+
