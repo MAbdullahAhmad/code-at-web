@@ -1,0 +1,151 @@
+:root{
+    --page-width: 100%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Header */
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    min-height: 50px;
+    width: var(--page-width);
+    color: white;
+}
+
+.post-center {
+   font-size: 35px;
+}
+
+.div3 {
+    background-color: black;
+    min-height: 50px;
+    width: var(--page-width);
+    color: white;
+}
+
+.home {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.search {
+    margin-left: 12%;
+}
+
+.add {
+    margin-left: 13%;
+}
+
+.heart {
+    margin-left: 12%;
+}
+
+.user {
+    margin-left: 12%;
+}
+
+.div2 {
+    background-color: black;
+    min-height: 600px;
+    width: var(--page-width);
+    color: white;
+    position: relative;
+    top: 5px;
+}
+
+/* ID-Bar: User Details */
+.id-bar {
+    width: var(--page-width);
+    height: auto;
+    color: white;
+}
+.pic {
+    min-height: 70px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.name {
+    margin-left: 30px;
+    position: relative;
+    bottom: 55px;
+}
+.location {
+    position: relative;
+    right: 80px;
+    bottom: 30px;
+    color:mediumaquamarine;
+}
+.more {
+    position: relative;
+    bottom: 15px;
+    left: 125px;
+}
+
+/* Post Image / Contents */
+.post-image{
+    width: 100%;
+}
+
+/* Post-Actions */
+.post-actions > *{
+    display: inline-block;
+}
+.red-heart {
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+}
+.comment {
+    /* margin-left: 20px; */
+}
+.paper-plane2 {
+    /* margin-left: 20px; */
+}
+.save {
+    /* margin-left: 250px; */
+    /* position: relative; */
+    /* top: 5px; */
+    /* justify-self: flex-end; */
+    float: right;
+}
+
+/* Post Details */
+.likes {
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+.discription {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    text-align: left;
+}
+.veiw-comments {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: mediumaquamarine;
+}
+.time {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    color: mediumaquamarine;
+}
+
+
+/* Ignore it */
+.extra {
+    width: var(--page-width);
+    height: 5px;
+    background-color: white;
+}
